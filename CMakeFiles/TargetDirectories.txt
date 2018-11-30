@@ -1,0 +1,5 @@
+/home/quagmire/projects/romviewer/lsrom/CMakeFiles/rebuild_cache.dir
+/home/quagmire/projects/romviewer/lsrom/CMakeFiles/edit_cache.dir
+/home/quagmire/projects/romviewer/lsrom/CMakeFiles/lsrom.dir
+/home/quagmire/projects/romviewer/lsrom/CMakeFiles/package_source.dir
+/home/quagmire/projects/romviewer/lsrom/CMakeFiles/package.dir

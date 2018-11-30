@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/quagmire/projects/romviewer/lsrom/include/Rom.h
+string
+-
+
+/home/quagmire/projects/romviewer/lsrom/include/RomManager.h
+string
+-
+
+/home/quagmire/projects/romviewer/lsrom/include/constants/./kOptions.h
+
+/home/quagmire/projects/romviewer/lsrom/include/constants/constants.h
+./kOptions.h
+/home/quagmire/projects/romviewer/lsrom/include/constants/./kOptions.h
+
+/home/quagmire/projects/romviewer/lsrom/include/main.h
+boost/program_options.hpp
+-
+
+/home/quagmire/projects/romviewer/lsrom/src/Rom.cpp
+../include/Rom.h
+/home/quagmire/projects/romviewer/lsrom/include/Rom.h
+
+/home/quagmire/projects/romviewer/lsrom/src/RomManager.cpp
+../include/RomManager.h
+/home/quagmire/projects/romviewer/lsrom/include/RomManager.h
+
+/home/quagmire/projects/romviewer/lsrom/src/main.cpp
+iostream
+-
+string
+-
+../include/main.h
+/home/quagmire/projects/romviewer/lsrom/include/main.h
+../include/constants/constants.h
+/home/quagmire/projects/romviewer/lsrom/include/constants/constants.h
+

@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/quagmire/projects/romviewer/lsrom",
+  "command": "/usr/bin/c++   -I/home/quagmire/projects/romviewer/lsrom/src/main    -Wall -o CMakeFiles/lsrom.dir/src/main.cpp.o -c /home/quagmire/projects/romviewer/lsrom/src/main.cpp",
+  "file": "/home/quagmire/projects/romviewer/lsrom/src/main.cpp"
+},
+{
+  "directory": "/home/quagmire/projects/romviewer/lsrom",
+  "command": "/usr/bin/c++   -I/home/quagmire/projects/romviewer/lsrom/src/main    -Wall -o CMakeFiles/lsrom.dir/src/Rom.cpp.o -c /home/quagmire/projects/romviewer/lsrom/src/Rom.cpp",
+  "file": "/home/quagmire/projects/romviewer/lsrom/src/Rom.cpp"
+},
+{
+  "directory": "/home/quagmire/projects/romviewer/lsrom",
+  "command": "/usr/bin/c++   -I/home/quagmire/projects/romviewer/lsrom/src/main    -Wall -o CMakeFiles/lsrom.dir/src/RomManager.cpp.o -c /home/quagmire/projects/romviewer/lsrom/src/RomManager.cpp",
+  "file": "/home/quagmire/projects/romviewer/lsrom/src/RomManager.cpp"
+}
+]

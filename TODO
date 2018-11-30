@@ -1,0 +1,20 @@
+===========
+= Classes =
+===========
+
+[ ] - Rom: Stores rom information and how to launch it
+[ ] - Genre: Relating to the subfolder organization of roms, eg: console or rpg
+[ ] - RomManager: Store, organize and display roms.
+
+
+========
+= Misc =
+========
+
+[X] - getopts: Handle command line arguments
+  + Used boost::program_options instead
+[ ] - doxygen: Learn and use doxygen 
+[ ] - regex: Use in C/C++ or a similar parser
+[X] - cross platform: makefiles/installers for all OS's
+  + CMake
+[ ] - test scripts: reusable scripting 
