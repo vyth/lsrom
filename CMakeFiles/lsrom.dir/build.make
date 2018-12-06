@@ -81,9 +81,33 @@ CMakeFiles/lsrom.dir/src/main.cpp.o.provides: CMakeFiles/lsrom.dir/src/main.cpp.
 CMakeFiles/lsrom.dir/src/main.cpp.o.provides.build: CMakeFiles/lsrom.dir/src/main.cpp.o
 
 
+CMakeFiles/lsrom.dir/src/Debug.cpp.o: CMakeFiles/lsrom.dir/flags.make
+CMakeFiles/lsrom.dir/src/Debug.cpp.o: src/Debug.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quagmire/projects/romviewer/lsrom/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lsrom.dir/src/Debug.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lsrom.dir/src/Debug.cpp.o -c /home/quagmire/projects/romviewer/lsrom/src/Debug.cpp
+
+CMakeFiles/lsrom.dir/src/Debug.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lsrom.dir/src/Debug.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/quagmire/projects/romviewer/lsrom/src/Debug.cpp > CMakeFiles/lsrom.dir/src/Debug.cpp.i
+
+CMakeFiles/lsrom.dir/src/Debug.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lsrom.dir/src/Debug.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/quagmire/projects/romviewer/lsrom/src/Debug.cpp -o CMakeFiles/lsrom.dir/src/Debug.cpp.s
+
+CMakeFiles/lsrom.dir/src/Debug.cpp.o.requires:
+
+.PHONY : CMakeFiles/lsrom.dir/src/Debug.cpp.o.requires
+
+CMakeFiles/lsrom.dir/src/Debug.cpp.o.provides: CMakeFiles/lsrom.dir/src/Debug.cpp.o.requires
+	$(MAKE) -f CMakeFiles/lsrom.dir/build.make CMakeFiles/lsrom.dir/src/Debug.cpp.o.provides.build
+.PHONY : CMakeFiles/lsrom.dir/src/Debug.cpp.o.provides
+
+CMakeFiles/lsrom.dir/src/Debug.cpp.o.provides.build: CMakeFiles/lsrom.dir/src/Debug.cpp.o
+
+
 CMakeFiles/lsrom.dir/src/Rom.cpp.o: CMakeFiles/lsrom.dir/flags.make
 CMakeFiles/lsrom.dir/src/Rom.cpp.o: src/Rom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quagmire/projects/romviewer/lsrom/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lsrom.dir/src/Rom.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quagmire/projects/romviewer/lsrom/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lsrom.dir/src/Rom.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lsrom.dir/src/Rom.cpp.o -c /home/quagmire/projects/romviewer/lsrom/src/Rom.cpp
 
 CMakeFiles/lsrom.dir/src/Rom.cpp.i: cmake_force
@@ -105,9 +129,57 @@ CMakeFiles/lsrom.dir/src/Rom.cpp.o.provides: CMakeFiles/lsrom.dir/src/Rom.cpp.o.
 CMakeFiles/lsrom.dir/src/Rom.cpp.o.provides.build: CMakeFiles/lsrom.dir/src/Rom.cpp.o
 
 
+CMakeFiles/lsrom.dir/src/Genre.cpp.o: CMakeFiles/lsrom.dir/flags.make
+CMakeFiles/lsrom.dir/src/Genre.cpp.o: src/Genre.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quagmire/projects/romviewer/lsrom/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lsrom.dir/src/Genre.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lsrom.dir/src/Genre.cpp.o -c /home/quagmire/projects/romviewer/lsrom/src/Genre.cpp
+
+CMakeFiles/lsrom.dir/src/Genre.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lsrom.dir/src/Genre.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/quagmire/projects/romviewer/lsrom/src/Genre.cpp > CMakeFiles/lsrom.dir/src/Genre.cpp.i
+
+CMakeFiles/lsrom.dir/src/Genre.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lsrom.dir/src/Genre.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/quagmire/projects/romviewer/lsrom/src/Genre.cpp -o CMakeFiles/lsrom.dir/src/Genre.cpp.s
+
+CMakeFiles/lsrom.dir/src/Genre.cpp.o.requires:
+
+.PHONY : CMakeFiles/lsrom.dir/src/Genre.cpp.o.requires
+
+CMakeFiles/lsrom.dir/src/Genre.cpp.o.provides: CMakeFiles/lsrom.dir/src/Genre.cpp.o.requires
+	$(MAKE) -f CMakeFiles/lsrom.dir/build.make CMakeFiles/lsrom.dir/src/Genre.cpp.o.provides.build
+.PHONY : CMakeFiles/lsrom.dir/src/Genre.cpp.o.provides
+
+CMakeFiles/lsrom.dir/src/Genre.cpp.o.provides.build: CMakeFiles/lsrom.dir/src/Genre.cpp.o
+
+
+CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o: CMakeFiles/lsrom.dir/flags.make
+CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o: src/OutputFormatter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quagmire/projects/romviewer/lsrom/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o -c /home/quagmire/projects/romviewer/lsrom/src/OutputFormatter.cpp
+
+CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/quagmire/projects/romviewer/lsrom/src/OutputFormatter.cpp > CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.i
+
+CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/quagmire/projects/romviewer/lsrom/src/OutputFormatter.cpp -o CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.s
+
+CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o.requires:
+
+.PHONY : CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o.requires
+
+CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o.provides: CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o.requires
+	$(MAKE) -f CMakeFiles/lsrom.dir/build.make CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o.provides.build
+.PHONY : CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o.provides
+
+CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o.provides.build: CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o
+
+
 CMakeFiles/lsrom.dir/src/RomManager.cpp.o: CMakeFiles/lsrom.dir/flags.make
 CMakeFiles/lsrom.dir/src/RomManager.cpp.o: src/RomManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quagmire/projects/romviewer/lsrom/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lsrom.dir/src/RomManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/quagmire/projects/romviewer/lsrom/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lsrom.dir/src/RomManager.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lsrom.dir/src/RomManager.cpp.o -c /home/quagmire/projects/romviewer/lsrom/src/RomManager.cpp
 
 CMakeFiles/lsrom.dir/src/RomManager.cpp.i: cmake_force
@@ -132,19 +204,27 @@ CMakeFiles/lsrom.dir/src/RomManager.cpp.o.provides.build: CMakeFiles/lsrom.dir/s
 # Object files for target lsrom
 lsrom_OBJECTS = \
 "CMakeFiles/lsrom.dir/src/main.cpp.o" \
+"CMakeFiles/lsrom.dir/src/Debug.cpp.o" \
 "CMakeFiles/lsrom.dir/src/Rom.cpp.o" \
+"CMakeFiles/lsrom.dir/src/Genre.cpp.o" \
+"CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o" \
 "CMakeFiles/lsrom.dir/src/RomManager.cpp.o"
 
 # External object files for target lsrom
 lsrom_EXTERNAL_OBJECTS =
 
 lsrom: CMakeFiles/lsrom.dir/src/main.cpp.o
+lsrom: CMakeFiles/lsrom.dir/src/Debug.cpp.o
 lsrom: CMakeFiles/lsrom.dir/src/Rom.cpp.o
+lsrom: CMakeFiles/lsrom.dir/src/Genre.cpp.o
+lsrom: CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o
 lsrom: CMakeFiles/lsrom.dir/src/RomManager.cpp.o
 lsrom: CMakeFiles/lsrom.dir/build.make
 lsrom: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+lsrom: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+lsrom: /usr/lib/x86_64-linux-gnu/libboost_system.so
 lsrom: CMakeFiles/lsrom.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/quagmire/projects/romviewer/lsrom/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable lsrom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/quagmire/projects/romviewer/lsrom/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable lsrom"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lsrom.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,7 +233,10 @@ CMakeFiles/lsrom.dir/build: lsrom
 .PHONY : CMakeFiles/lsrom.dir/build
 
 CMakeFiles/lsrom.dir/requires: CMakeFiles/lsrom.dir/src/main.cpp.o.requires
+CMakeFiles/lsrom.dir/requires: CMakeFiles/lsrom.dir/src/Debug.cpp.o.requires
 CMakeFiles/lsrom.dir/requires: CMakeFiles/lsrom.dir/src/Rom.cpp.o.requires
+CMakeFiles/lsrom.dir/requires: CMakeFiles/lsrom.dir/src/Genre.cpp.o.requires
+CMakeFiles/lsrom.dir/requires: CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o.requires
 CMakeFiles/lsrom.dir/requires: CMakeFiles/lsrom.dir/src/RomManager.cpp.o.requires
 
 .PHONY : CMakeFiles/lsrom.dir/requires

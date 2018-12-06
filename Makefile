@@ -145,6 +145,87 @@ lsrom/fast:
 	$(MAKE) -f CMakeFiles/lsrom.dir/build.make CMakeFiles/lsrom.dir/build
 .PHONY : lsrom/fast
 
+src/Debug.o: src/Debug.cpp.o
+
+.PHONY : src/Debug.o
+
+# target to build an object file
+src/Debug.cpp.o:
+	$(MAKE) -f CMakeFiles/lsrom.dir/build.make CMakeFiles/lsrom.dir/src/Debug.cpp.o
+.PHONY : src/Debug.cpp.o
+
+src/Debug.i: src/Debug.cpp.i
+
+.PHONY : src/Debug.i
+
+# target to preprocess a source file
+src/Debug.cpp.i:
+	$(MAKE) -f CMakeFiles/lsrom.dir/build.make CMakeFiles/lsrom.dir/src/Debug.cpp.i
+.PHONY : src/Debug.cpp.i
+
+src/Debug.s: src/Debug.cpp.s
+
+.PHONY : src/Debug.s
+
+# target to generate assembly for a file
+src/Debug.cpp.s:
+	$(MAKE) -f CMakeFiles/lsrom.dir/build.make CMakeFiles/lsrom.dir/src/Debug.cpp.s
+.PHONY : src/Debug.cpp.s
+
+src/Genre.o: src/Genre.cpp.o
+
+.PHONY : src/Genre.o
+
+# target to build an object file
+src/Genre.cpp.o:
+	$(MAKE) -f CMakeFiles/lsrom.dir/build.make CMakeFiles/lsrom.dir/src/Genre.cpp.o
+.PHONY : src/Genre.cpp.o
+
+src/Genre.i: src/Genre.cpp.i
+
+.PHONY : src/Genre.i
+
+# target to preprocess a source file
+src/Genre.cpp.i:
+	$(MAKE) -f CMakeFiles/lsrom.dir/build.make CMakeFiles/lsrom.dir/src/Genre.cpp.i
+.PHONY : src/Genre.cpp.i
+
+src/Genre.s: src/Genre.cpp.s
+
+.PHONY : src/Genre.s
+
+# target to generate assembly for a file
+src/Genre.cpp.s:
+	$(MAKE) -f CMakeFiles/lsrom.dir/build.make CMakeFiles/lsrom.dir/src/Genre.cpp.s
+.PHONY : src/Genre.cpp.s
+
+src/OutputFormatter.o: src/OutputFormatter.cpp.o
+
+.PHONY : src/OutputFormatter.o
+
+# target to build an object file
+src/OutputFormatter.cpp.o:
+	$(MAKE) -f CMakeFiles/lsrom.dir/build.make CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o
+.PHONY : src/OutputFormatter.cpp.o
+
+src/OutputFormatter.i: src/OutputFormatter.cpp.i
+
+.PHONY : src/OutputFormatter.i
+
+# target to preprocess a source file
+src/OutputFormatter.cpp.i:
+	$(MAKE) -f CMakeFiles/lsrom.dir/build.make CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.i
+.PHONY : src/OutputFormatter.cpp.i
+
+src/OutputFormatter.s: src/OutputFormatter.cpp.s
+
+.PHONY : src/OutputFormatter.s
+
+# target to generate assembly for a file
+src/OutputFormatter.cpp.s:
+	$(MAKE) -f CMakeFiles/lsrom.dir/build.make CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.s
+.PHONY : src/OutputFormatter.cpp.s
+
 src/Rom.o: src/Rom.cpp.o
 
 .PHONY : src/Rom.o
@@ -237,6 +318,15 @@ help:
 	@echo "... lsrom"
 	@echo "... package_source"
 	@echo "... package"
+	@echo "... src/Debug.o"
+	@echo "... src/Debug.i"
+	@echo "... src/Debug.s"
+	@echo "... src/Genre.o"
+	@echo "... src/Genre.i"
+	@echo "... src/Genre.s"
+	@echo "... src/OutputFormatter.o"
+	@echo "... src/OutputFormatter.i"
+	@echo "... src/OutputFormatter.s"
 	@echo "... src/Rom.o"
 	@echo "... src/Rom.i"
 	@echo "... src/Rom.s"

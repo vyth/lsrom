@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/lsrom.dir/src/main.cpp.o CMakeFiles/lsrom.dir/src/Rom.cpp.o CMakeFiles/lsrom.dir/src/RomManager.cpp.o  -o lsrom -lboost_program_options 
+/usr/bin/c++    -rdynamic CMakeFiles/lsrom.dir/src/main.cpp.o CMakeFiles/lsrom.dir/src/Debug.cpp.o CMakeFiles/lsrom.dir/src/Rom.cpp.o CMakeFiles/lsrom.dir/src/Genre.cpp.o CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o CMakeFiles/lsrom.dir/src/RomManager.cpp.o  -o lsrom -lboost_program_options -lboost_filesystem -lboost_system 

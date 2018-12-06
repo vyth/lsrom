@@ -10,6 +10,12 @@
 
 #include "./kOptions.h"
 
+
+/*********************************** Consts **********************************/
+
+const char *kDefaultConfigPath = "lsrom.conf";//"~/.config/lsrom.conf";
+const char *kDefaultRomDir     = "/home/quagmire/shared/roms/";//"~/roms"
+
 /*********************************** Enums ***********************************/
 
 /// Enum for different consoles emulated

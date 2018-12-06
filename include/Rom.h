@@ -10,24 +10,40 @@
 
 #include <string>
 
+#include "Debug.h"
 namespace RomViewer {
 
 class Rom {
   public:
-    ///constructor
+    ///defaul constructor
     Rom();
+    ///constructor
+    Rom(const std::string &fullPath, const std::string &localPath);
     ///destructor
     ~Rom();
 
     
     /**
-    *   @brief Returns the class instance's id
-    *   @return std::string containing instance id
+    *   @brief Returns rom's full path
+    *   @return std::string 
+    **/
+    std::string GetFullPath(); 
+
+    /**
+    *   @brief Returns rom's local path
+    *   @return std::string 
+    **/
+    std::string GetLocalPath(); 
+
+    /**
+    *   @brief Returns rom object information
+    *   @return std::string
     **/
     std::string ToString();
   protected:
   private:
-    int id; ///< id
+    std::string fullPath; ///< path to rom
+    std::string localPath; ///< path from root rom folder
 };
 
 }//namespace RomViewer

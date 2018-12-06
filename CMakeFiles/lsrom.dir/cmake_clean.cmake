@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lsrom.dir/src/main.cpp.o"
+  "CMakeFiles/lsrom.dir/src/Debug.cpp.o"
   "CMakeFiles/lsrom.dir/src/Rom.cpp.o"
+  "CMakeFiles/lsrom.dir/src/Genre.cpp.o"
+  "CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o"
   "CMakeFiles/lsrom.dir/src/RomManager.cpp.o"
   "lsrom.pdb"
   "lsrom"

@@ -1,6 +1,6 @@
-#### LSROM v. 0.01 (under development)
+## LSROM v. 0.01 (under development)
 
-## About
+#### About
 
 Command line tool to display and organize a rom directory of the structure:
 

@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/quagmire/projects/romviewer/lsrom/src/Debug.cpp" "/home/quagmire/projects/romviewer/lsrom/CMakeFiles/lsrom.dir/src/Debug.cpp.o"
+  "/home/quagmire/projects/romviewer/lsrom/src/Genre.cpp" "/home/quagmire/projects/romviewer/lsrom/CMakeFiles/lsrom.dir/src/Genre.cpp.o"
+  "/home/quagmire/projects/romviewer/lsrom/src/OutputFormatter.cpp" "/home/quagmire/projects/romviewer/lsrom/CMakeFiles/lsrom.dir/src/OutputFormatter.cpp.o"
   "/home/quagmire/projects/romviewer/lsrom/src/Rom.cpp" "/home/quagmire/projects/romviewer/lsrom/CMakeFiles/lsrom.dir/src/Rom.cpp.o"
   "/home/quagmire/projects/romviewer/lsrom/src/RomManager.cpp" "/home/quagmire/projects/romviewer/lsrom/CMakeFiles/lsrom.dir/src/RomManager.cpp.o"
   "/home/quagmire/projects/romviewer/lsrom/src/main.cpp" "/home/quagmire/projects/romviewer/lsrom/CMakeFiles/lsrom.dir/src/main.cpp.o"

@@ -4,8 +4,10 @@ namespace RomViewer {
 
 /* Init Functions */
 
-Rom::Rom() {
-
+Rom::Rom() {} 
+Rom::Rom(const std::string &fullPath, const std::string &localPath) {
+  this->fullPath = fullPath;
+  this->localPath = localPath;
 }
 
 Rom::~Rom() {
@@ -17,9 +19,12 @@ Rom::~Rom() {
 /* Set Functions */
 
 /* Get Functions */
+std::string Rom::GetFullPath()  { return fullPath; }
+std::string Rom::GetLocalPath() { return localPath; }
 
 std::string Rom::ToString() {
-  return std::string("ID: ") + std::to_string(this->id); 
+  return "Full\t= " + GetFullPath() + 
+         "\nLocal\t= " + GetLocalPath() + "\n";
 }
 
-}
+} //namespace RomViewer

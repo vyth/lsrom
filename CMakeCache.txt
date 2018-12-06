@@ -23,6 +23,12 @@ Boost_FILESYSTEM_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_files
 //Boost filesystem library (release)
 Boost_FILESYSTEM_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 
+//Boost format library (debug)
+Boost_FORMAT_LIBRARY_DEBUG:FILEPATH=Boost_FORMAT_LIBRARY_DEBUG-NOTFOUND
+
+//Boost format library (release)
+Boost_FORMAT_LIBRARY_RELEASE:FILEPATH=Boost_FORMAT_LIBRARY_RELEASE-NOTFOUND
+
 //Path to a file.
 Boost_INCLUDE_DIR:PATH=/usr/include
 
@@ -291,6 +297,10 @@ Boost_DIR-ADVANCED:INTERNAL=1
 Boost_FILESYSTEM_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_FILESYSTEM_LIBRARY_RELEASE
 Boost_FILESYSTEM_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_FORMAT_LIBRARY_DEBUG
+Boost_FORMAT_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_FORMAT_LIBRARY_RELEASE
+Boost_FORMAT_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_INCLUDE_DIR
 Boost_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: Boost_LIBRARY_DIR_DEBUG
@@ -483,7 +493,7 @@ GTEST_MAIN_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GTEST_MAIN_LIBRARY_DEBUG
 GTEST_MAIN_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 //Components requested for this build tree.
-_Boost_COMPONENTS_SEARCHED:INTERNAL=filesystem;program_options;system
+_Boost_COMPONENTS_SEARCHED:INTERNAL=filesystem;format;program_options;system
 //Last used Boost_INCLUDE_DIR value.
 _Boost_INCLUDE_DIR_LAST:INTERNAL=/usr/include
 //Last used Boost_LIBRARY_DIR_DEBUG value.

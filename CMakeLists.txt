@@ -4,22 +4,33 @@ project(lsrom)
 #enable vim's pluign YouCompleteMe for autocomplete
 set( CMAKE_EXPORT_COMPILE_COMMANDS ON )
 
+set( lsrom_VERSION_MAJOR 1 )
+set( lsrom_VERSION_MINOR 0 )
+
 ###############################################################################
 #                             List Sources and Data                           #
 ###############################################################################
 
 set (sources 
              src/main.cpp
+             src/Debug.cpp
              
              src/Rom.cpp
+             src/Genre.cpp
+
+             src/OutputFormatter.cpp
              src/RomManager.cpp
 )
 
 set (headers
              include/main.h
+             include/Debug.h
 
              include/Rom.h
+             include/Genre.h
+
              include/RomManager.h
+             include/OutputFormatter.h
 
              include/constants/constants.h
              include/constants/kOptions.h
@@ -37,7 +48,7 @@ set (data
 add_executable(lsrom ${sources} ${data})
 
 #compiler flags
-target_compile_options(lsrom PUBLIC -Wall) 
+target_compile_options(lsrom PUBLIC -Wall -g) 
 
 # This allows to include files relative to the root of the src directory with a <> pair
 target_include_directories(lsrom PUBLIC src/main)
@@ -52,7 +63,10 @@ file(COPY ${data} DESTINATION resources)
 
 # This defines the variables Boost_LIBRARIES that containts all library names
 # that we need to link into the program.
-find_package(Boost 1.36.0 COMPONENTS program_options  REQUIRED)
+find_package(Boost 1.36.0 COMPONENTS 
+                                     program_options 
+                                     filesystem 
+                          REQUIRED)
 
 target_link_libraries(lsrom PUBLIC
   ${Boost_LIBRARIES}
